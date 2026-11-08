@@ -1,13 +1,8 @@
 .gradle/
-.kotlin/
 **/build/
 local.properties
 tools/
 .android/
-
-# PxHere 测试照片集只留在本地，不纳入仓库
-test-images/**/*.jpg
-test-images/**/*.jpeg
-test-images/**/*.png
-test-images/**/*.webp
-test-images/**/*.gif
+/test-images/
+/.idea/
+/.kotlin/

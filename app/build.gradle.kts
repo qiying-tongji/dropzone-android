@@ -6,6 +6,9 @@ android {
     compileOptions { sourceCompatibility = JavaVersion.VERSION_17; targetCompatibility = JavaVersion.VERSION_17 }
 }
 dependencies {
+ implementation("com.microsoft.onnxruntime:onnxruntime-android:1.23.2")
+ implementation("com.google.mlkit:face-detection:16.1.7")
+ implementation("androidx.activity:activity:1.7.2")
  implementation("com.google.mlkit:text-recognition-chinese:16.0.1")
  implementation("com.google.mlkit:image-labeling:17.0.9")
  implementation("androidx.work:work-runtime-ktx:2.10.1")

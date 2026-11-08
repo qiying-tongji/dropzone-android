@@ -1,0 +1,6 @@
+Offline city lookup is derived from GeoNames (https://www.geonames.org/).
+Source: https://download.geonames.org/export/dump/cities15000.zip
+Province reference: https://download.geonames.org/export/dump/admin1CodesASCII.txt
+License: Creative Commons Attribution 4.0 International (https://creativecommons.org/licenses/by/4.0/).
+DropZone filtered the extract to city seats in mainland China and retained the coordinates and selected Chinese names.
+The lookup uses nearby city seats and does not use administrative boundaries.

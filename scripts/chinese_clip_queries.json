@@ -1,0 +1,18 @@
+{
+  "pxhere": [
+    {"text": "树枝上盛开的粉色樱花", "expected_ids": [3]},
+    {"text": "人形机器人坐在笔记本电脑前", "expected_ids": [4]},
+    {"text": "天空中有闪电的城市天际线", "expected_ids": [50]},
+    {"text": "蓝天映衬下有尖塔的教堂", "expected_ids": [48]},
+    {"text": "张开翅膀的鸟", "expected_ids": [46]},
+    {"text": "放在茶碟上的杯子", "expected_ids": [38]}
+  ],
+  "real-life": [
+    {"text": "户外有大片天空的照片"},
+    {"text": "夜晚灯光照亮的场景"},
+    {"text": "带有多行文字的手机截图", "expected_ids": [4, 5, 6, 7], "label_basis": "filename-screenshot"},
+    {"text": "桌上的食物和餐具"},
+    {"text": "室外的建筑和街道"},
+    {"text": "站在户外的人"}
+  ]
+}
